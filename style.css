@@ -1,0 +1,25 @@
+body{
+    background-image: url(background.jpg);
+}
+#buttonOne:hover{
+background-color: red;
+}
+canvas{
+    margin-top: 25px;
+    animation-name: coloranime;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes coloranime{
+    from{
+        box-shadow: 1px 1px 38px rgb(0, 255, 195);
+    }
+    to{
+        box-shadow: 1px 1px 45px rgb(255, 200, 0);
+    }
+}
+#headingh2 {
+    font-size: large;
+    font-weight: 700;
+    color:azure;
+}
